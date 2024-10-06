@@ -11,9 +11,29 @@
 	<body>
 	
 	<script>
-	    for(var i = 0; i < 49; i++)
-	    {
-	        // add your divs here!
+	
+	   // loops the function 49 times
+	    for(var i = 0; i < 49; i++){
+	        
+	   //width of each checkerboard    
+	        
+	        
+	   // creates a div function in which we can style
+	        var board = document.createElement("div");
+	
+	            if(i%2 == 0){
+	                board.style.backgroundColor = "black";
+	                board.style.height = "60px";
+	                board.style.width = "calc(100%/7)";
+	                document.body.append(board);
+	            }else{
+	                board.style.backgroundColor = "red";
+	                board.style.height = "60px";
+	                board.style.width = "calc(100%/7)";
+	                document.body.append(board);
+	            }
+	        
+	       
 	    }
 	</script>
 	</body>
