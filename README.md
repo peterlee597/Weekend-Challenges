@@ -1,1 +1,1 @@
-# Weeklend-Challenges
+# Weekend-Challenges
